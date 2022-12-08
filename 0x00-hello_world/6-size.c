@@ -7,6 +7,16 @@
  */
 int main(void)
 {
-	sizeof();
+
+	int integer;
+	char c;
+	double doubleType;
+	float floattype;
+
+
+	printf("size of an int type is: %d byte(s)\n", sizeof(integer));
+	printf("size of a char type is: %c byte(s)\n", sizeof(c));
+	printf("size of a double type is: %1d byte(s)\n", sizeof(doubleType));
+	printf("size of a float type is: %1d byte(s)\n", sizeof(floatType));
 	return (0);
 }
