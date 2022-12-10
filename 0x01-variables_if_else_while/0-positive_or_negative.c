@@ -18,8 +18,10 @@ int main(void)
 		else if (n == 0)
 		{
 			printf("$d\n is Zero", n);
+		}
 		else
 			printf("%d\n is a Negative number", n);
+	}
 
 
 	return (0);
