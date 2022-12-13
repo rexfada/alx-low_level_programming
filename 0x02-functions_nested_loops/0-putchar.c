@@ -1,18 +1,22 @@
+#include "main.h"
 #include <stdio.h>
 
 /**
- * main - Tis program prints _putchar
- *
- * Return: Returns 0
+ * main - Print _putchar
+ * Return: 0
  *
  */
 int main(void)
 {
-	char _putchar;
-
-	putchar(_putchar);
-	putchar('\n');
-
+	-putchar('_');
+	-putchar('p');
+	-putchar('u');
+	-putchar('t');
+	-putchar('c');
+	-putchar('h');
+	-putchar('a');
+	-putchar('r');
+	-putchar('\n');
 
 	return (0);
 }
