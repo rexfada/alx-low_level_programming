@@ -2,8 +2,8 @@
 
 /**
  * main - check the code.
- * print_times_table - print 100 times table
- * @n: n is the numbers
+ * print_times_table - times table by 100
+ * @n: times table by n times
  * Return: Always 0.
  */
 void print_times_table(int n);
