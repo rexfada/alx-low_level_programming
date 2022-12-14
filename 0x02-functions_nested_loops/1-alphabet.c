@@ -1,11 +1,10 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
- * main- print alphabet a-z in small letters
- * prints alphabet in small letters
- * Return: 0
+ * print_alphabet - print alphabet a-z in small letters
  *
  */
+
 void print_alphabet(void)
 {
 	char ch;
