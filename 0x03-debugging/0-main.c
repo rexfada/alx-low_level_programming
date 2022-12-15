@@ -10,5 +10,7 @@ void positive_or_negative(int i);
 int main(void)
 {
 	positive_or_negative(0);
+	positive_or_negative(98);
+	positive_or_negative(-98);
 	return (0);
 }
