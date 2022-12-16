@@ -5,24 +5,21 @@
  * @a: first integer
  * @b: second integer
  * @c: third integer
- * Return: largest number
  */
 
 int largest_number(int a, int b, int c)
 {
-	int largest;
-
 	if (a > b && b > c)
 	{
-		largest = a;
+		printf("%d is the largest number\n", a);
 	}
 	else if (b > a && a > c)
 	{
-		largest = b;
+		printf("%d is the largest number\n", b);
 	}
-	else if (c > a && a > b)
+	else if (c > b && b > a)
 	{
-	largest = c;
+		printf("%d is the largest number\n", c);
 	}
-	return (largest);
+	return (0);
 }
