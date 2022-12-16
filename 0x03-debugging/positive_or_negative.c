@@ -4,7 +4,6 @@
 * @i: i the integer to test with
 * Return: the program returns 0
 */
-
 void positive_or_negative(int i)
 {
 	if (i == 0)
