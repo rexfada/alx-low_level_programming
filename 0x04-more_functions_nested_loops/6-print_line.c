@@ -12,11 +12,10 @@ void print_line(int n)
 	{
 		if (n <= 0)
 		{
-			break;
+			_putchar('\n');
 		}
 		else
 		{
-			continue;
 			_putchar('_');
 		}
 	}
