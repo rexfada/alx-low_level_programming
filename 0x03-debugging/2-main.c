@@ -11,6 +11,5 @@
 int largest_number(int a, int b, int c);
 int main(void)
 {
-	largest_number(972, -98, 0);
-	return (0);
+	return (largest_number(972, -98, 0));
 }
