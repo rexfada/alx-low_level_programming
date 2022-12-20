@@ -20,5 +20,8 @@ void print_array(int *a, int n)
 			printf("%d\n", a[i]);
 		}
 	}
-	printf("\n");
+	if (n <= 4)
+	{
+		printf("\n");
+	}
 }
