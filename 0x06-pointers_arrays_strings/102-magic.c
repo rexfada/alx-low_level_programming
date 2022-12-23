@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
 *   main- Functin to print 2[5] = 98
 *   Return: 0
