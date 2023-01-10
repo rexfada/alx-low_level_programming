@@ -29,22 +29,22 @@ int main(int argc, char *argv[])
 	{
 		money -= 10;
 		coins++;
- 	}
+	}
 	while (money >= 5)
 	{
-		 money -= 5;
+		money -= 5;
 		coins++;
- 	}
+	}
 	while (money >= 2)
 	{
 		money -= 2;
 		coins++;
- 	}
+	}
 	while (money >= 1)
 	{
 		money -= 1;
 		coins++;
- 	}
+	}
 	printf("%i\n", coins);
 	return (0);
 }
