@@ -16,34 +16,33 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 	money = atoi(argv[1]);
-	if (money < 0)
+	if (money > 0)
 	{
-		printf("0\n");
-	}
-	while (money >= 25)
-	{
-		money -= 25;
-		coins++;
-	}
-	while (money >= 10)
-	{
-		money -= 10;
-		coins++;
-	}
-	while (money >= 5)
-	{
-		money -= 5;
-		coins++;
-	}
-	while (money >= 2)
-	{
-		money -= 2;
-		coins++;
-	}
-	while (money >= 1)
-	{
-		money -= 1;
-		coins++;
+		while (money >= 25)
+		{
+			money -= 25;
+			coins++;
+		}
+		while (money >= 10)
+		{
+			money -= 10;
+			coins++;
+		}
+		while (money >= 5)
+		{
+			money -= 5;
+			coins++;
+		}
+		while (money >= 2)
+		{
+			money -= 2;
+			coins++;
+		}
+		while (money >= 1)
+		{
+			money -= 1;
+			coins++;
+		}
 	}
 	printf("%i\n", coins);
 	return (0);
