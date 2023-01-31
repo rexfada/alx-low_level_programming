@@ -1,8 +1,8 @@
-#include<stdio.h>
-#include<stdlib.h>
-
 #ifndef LIST_H
 #define LIST_H
+
+#include<stdio.h>
+#include<stdlib.h>
 
 /**
  * struct listint_s - singly linked list
@@ -13,10 +13,10 @@
  * for Holberton project
  */
 typedef struct listint_s
- {
- 	int n;
- 	struct listint_s *next;
- } listint_t;
+{
+	int n;
+	struct listint_s *next;
+} listint_t;
 /**
  * struct listp_s - singly linked list
  * @p: pointers of nodes
@@ -44,7 +44,5 @@ listint_t *reverse_listint(listint_t **head);
 size_t print_listint_safe(const listint_t *head);
 size_t free_listint_safe(listint_t **h);
 listint_t *find_listint_loop(listint_t *head);
-
-
 
 #endif
